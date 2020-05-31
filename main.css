@@ -1,0 +1,113 @@
+body
+{
+    background-color: #bfbfbf;
+    color: black;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+h1
+{
+    margin-top: 2%;
+    font-size: 70px;
+}
+
+form
+{
+    margin: 1% 2% 1% 80%;
+}
+
+#Ville
+{
+    height: 23px;
+    border-radius: 5px;
+}
+
+#meteo
+{
+    width: 100%;
+    height: 400px;
+   
+}
+
+#temps
+{
+    padding-top: 8%;
+    font-size: 300%;
+}
+
+#temperature
+{
+    font-size: 28px;
+}
+
+form button
+{
+    background-color: rgb(0, 134, 187);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 2%;
+}
+
+form button:hover
+{
+    background-color: rgb(218, 198, 18);
+    box-shadow: 3px 3px grey;
+}
+
+header h1
+{
+    font-family: 'Merriweather', serif;
+}
+
+i
+{
+    padding: 15px;
+}
+
+.cloudBack
+{
+    background: url(img/clouds.jpeg) no-repeat;
+    background-position-y: 45%;
+}
+
+.rainBack
+{
+    background: url(img/rain.jpg) no-repeat;
+    background-size: 120%;
+    background-position-y: 20%;
+}
+
+.clearBack
+{
+    background: url(img/clear.jpeg) no-repeat;
+    background-position-y: 55%;
+}
+
+.snowBack
+{
+    background: url(img/snow.jpg) no-repeat;
+}
+
+.drizzleBack
+{
+    background: url(img/drizzle.jpg) no-repeat;
+}
+
+.mistBack
+{
+    background: url(img/mist.jpeg) no-repeat;
+}
+
+.sunny
+{
+    background: url(img/sunny.jpg) no-repeat;
+    background-position-y: 40%;
+}
+
+footer
+{
+    margin-top: 3%;
+}
