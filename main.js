@@ -37,13 +37,21 @@ document.querySelector('form').addEventListener('submit', async function (e) {
         else if (temps === "mist") background.className = 'mistBack';
         
 
+        let detailsWeather = document.getElementById('detailMeteo');
+
+        if (temps === "Clouds") detailsWeather.innerHTML = 'le temps sera nuageux.';
+        else if (temps === "Rain") detailsWeather.innerHTML = 'le temps sera pluvieux.';
+        else if (temps === "Clear") detailsWeather.innerHTML = 'le ciel sera clair aujourd\'hui.';
+        else if (temps === "Snow") detailsWeather.innerHTML = 'des chutes de neiges sont annoncées.';
+        else if (temps === "Drizzle") detailsWeather.innerHTML = 'du brouillard est attendu.';
+        else if (temps === "mist") detailsWeather.innerHTML = 'du brouillard est attendu';
        
 
 
         // 
         // requete.send();
     }
-    document.querySelector('#Ville').style.border = `red 2px solid`;
+    document.querySelector('#Ville').style.border = `rgb(218, 198, 18) 2px solid`;
 });
 
 function getMeteo(ville) {
