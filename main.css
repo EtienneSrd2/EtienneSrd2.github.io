@@ -107,8 +107,8 @@ i
 
 .sunny
 {
-    background: url(img/sunny.jpg) no-repeat;
-    background-position-y: 40%;
+    background: url(img/alpes.jpeg) no-repeat;
+    background-size: cover;
 }
 
 footer
