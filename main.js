@@ -3,7 +3,7 @@ document.querySelector('form').addEventListener('submit', async function (e) {
     const villeInput = document.querySelector('#Ville');
     const villeValue = villeInput.value;
 
-    if (document.querySelector('#Ville').value != ('') || isNaN(document.querySelector('#Ville').value)) {
+    if (document.querySelector('#Ville').value !== ('') || isNaN(document.querySelector('#Ville').value)) {
         document.querySelector("#Ville").style.border = '#00ff48 2.5px solid';
 
         const donnees = await getMeteo(villeValue);
