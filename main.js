@@ -4,7 +4,7 @@ document.querySelector('form').addEventListener('submit', async function (e) {
     const villeValue = villeInput.value;
 
     if (document.querySelector('#Ville').value !== ('') || isNaN(document.querySelector('#Ville').value)) {
-        document.querySelector("#Ville").style.border = '#00ff48 2.5px solid';
+        document.querySelector("#Ville").style.border = '#c0392b 2.5px solid';
 
         const donnees = await getMeteo(villeValue);
         const temperature = donnees.main.temp;
@@ -48,16 +48,17 @@ document.querySelector('form').addEventListener('submit', async function (e) {
        
 
 
-        // 
+        
         // requete.send();
     }
-    document.querySelector('#Ville').style.border = `rgb(218, 198, 18) 2px solid`;
+    document.querySelector('#Ville').style.border = `#27ae60 2px solid`;
 
 
 function getMeteo(ville) {
-    return fetch(`https://api.openweathermap.org/data/2.5/weather?q=${document.querySelector('#Ville').value}&appid=8e602b9ea28ed4f9f8fc97a5f6d1105c&units=metric`)
+    return fetch(`https://api.openweathermap.org/data/2.5/weather?q=${document.querySelector('#Ville').value}&appid=ee3e0784ed65fc7186df281b773f1efd&units=metric`)
         .then(function (reponse) {
             return reponse.json();
         })
+      
 }
 });
