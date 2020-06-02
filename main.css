@@ -6,6 +6,13 @@ body
     font-family: 'Balsamiq Sans', cursive;
 }
 
+
+.icone , .phrase
+{
+    color: black;
+    font-weight: bold;
+}
+
 h1
 {
     margin-top: 2%;
@@ -14,7 +21,7 @@ h1
 
 form
 {
-    margin: 1% 2% 1% 80%;
+    margin: 1% 2% 1% 75%;
 }
 
 #Ville
@@ -127,4 +134,51 @@ footer a:hover
 {
     text-decoration: none;
     color: rgb(218, 198, 18);
+}
+
+@media screen and (max-width: 1050px){
+
+    input{
+        margin-left: -80%;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .phrase{
+        font-size: 25px;
+    }
+    
+}
+
+
+@media screen and (max-width: 600px){
+
+    h1{
+        font-size: 35px;
+    }
+
+    input{
+        margin-left: -160%;
+    }
+
+    .phrase{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 380px){
+
+    h1{
+        font-size: 35px;
+    }
+
+    input{
+        margin-left: -200%;
+    }
+
+    .phrase{
+        font-size: 20px;
+    }
 }
