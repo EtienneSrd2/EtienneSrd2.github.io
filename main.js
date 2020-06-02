@@ -52,7 +52,7 @@ document.querySelector('form').addEventListener('submit', async function (e) {
         // requete.send();
     }
     document.querySelector('#Ville').style.border = `rgb(218, 198, 18) 2px solid`;
-});
+
 
 function getMeteo(ville) {
     return fetch(`http://api.openweathermap.org/data/2.5/weather?q=${document.querySelector('#Ville').value}&appid=8e602b9ea28ed4f9f8fc97a5f6d1105c&units=metric`)
@@ -60,4 +60,4 @@ function getMeteo(ville) {
             return reponse.json();
         })
 }
-
+});
