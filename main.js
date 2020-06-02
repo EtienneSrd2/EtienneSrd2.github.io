@@ -55,7 +55,7 @@ document.querySelector('form').addEventListener('submit', async function (e) {
 
 
 function getMeteo(ville) {
-    return fetch(`http://api.openweathermap.org/data/2.5/weather?q=${document.querySelector('#Ville').value}&appid=8e602b9ea28ed4f9f8fc97a5f6d1105c&units=metric`)
+    return fetch(`https://api.openweathermap.org/data/2.5/weather?q=${document.querySelector('#Ville').value}&appid=8e602b9ea28ed4f9f8fc97a5f6d1105c&units=metric`)
         .then(function (reponse) {
             return reponse.json();
         })
