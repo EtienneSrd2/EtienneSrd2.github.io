@@ -26,10 +26,11 @@ form
 
 #Ville
 {
-    height: 23px;
+    height: 30px;
     border-radius: 5px;
     background-color: #4b575c;
     color: rgb(187, 184, 184);
+    border: none;
 }
 
 #meteo
@@ -59,7 +60,7 @@ form button
     color: white;
     font-weight: bold;
     border-radius: 30px;
-    padding: 2%;
+    padding: 2% 4% 2% 4%;
 }
 
 form button:hover
@@ -159,12 +160,18 @@ footer a:hover
         font-size: 35px;
     }
 
-    input{
-        margin-left: -180%;
+    form
+    {
+        margin-left: 50%;
     }
 
     .phrase{
         font-size: 20px;
+    }
+    
+    #temps
+    {
+       padding-top: 20%;
     }
 }
 
@@ -174,16 +181,40 @@ footer a:hover
         font-size: 35px;
     }
 
-    input{
-        margin-left: -220%;
-    }
-
     .phrase{
         font-size: 20px;
     }
 
+    form
+    {
+        margin-bottom: 5%;
+        width: 50%
+    }
+
     #Ville
     {
-        width: 110px;
+        padding-left: 22%;
+        width: 80%
+    }
+
+    form button
+    {
+        margin-bottom: 10%;
+        padding: 4% 5% 4% 5%;
+    }
+
+    #meteo
+    {
+        width: 100%;
+    }
+
+    footer
+    {
+        font-size: 12px;
+    }
+
+    #temps
+    {
+        padding-top: 25%;
     }
 }
