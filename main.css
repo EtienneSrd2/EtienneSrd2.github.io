@@ -181,4 +181,9 @@ footer a:hover
     .phrase{
         font-size: 20px;
     }
+
+    #Ville
+    {
+        width: 110px;
+    }
 }
