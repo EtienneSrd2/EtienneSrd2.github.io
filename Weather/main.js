@@ -39,12 +39,12 @@ document.querySelector('form').addEventListener('submit', async function (e) {
 
         let detailsWeather = document.getElementById('detailMeteo');
 
-        if (temps === "Clouds") detailsWeather.innerHTML = 'le temps sera nuageux.';
-        else if (temps === "Rain") detailsWeather.innerHTML = 'le temps sera pluvieux.';
-        else if (temps === "Clear") detailsWeather.innerHTML = 'le ciel sera ensoleillé aujourd\'hui.';
-        else if (temps === "Snow") detailsWeather.innerHTML = 'des chutes de neiges sont annoncées.';
-        else if (temps === "Drizzle") detailsWeather.innerHTML = 'de la bruine est attendue.';
-        else if (temps === "mist") detailsWeather.innerHTML = 'du brouillard est attendu';
+        if (temps === "Clouds") detailsWeather.innerHTML = 'there will be some clouds';
+        else if (temps === "Rain") detailsWeather.innerHTML = 'there will be some rain';
+        else if (temps === "Clear") detailsWeather.innerHTML = 'the sky will be sunny today.';
+        else if (temps === "Snow") detailsWeather.innerHTML = 'some snowfall are expected';
+        else if (temps === "Drizzle") detailsWeather.innerHTML = 'some drizzle is expected.';
+        else if (temps === "mist") detailsWeather.innerHTML = 'there will be fog';
        
         let phrase = document.getElementById('phrase');
 
