@@ -41,7 +41,7 @@ document.querySelector('form').addEventListener('submit', async function (e) {
 
         if (temps === "Clouds") detailsWeather.innerHTML = 'there will be some clouds';
         else if (temps === "Rain") detailsWeather.innerHTML = 'there will be some rain';
-        else if (temps === "Clear") detailsWeather.innerHTML = 'the sky will be sunny today.';
+        else if (temps === "Clear") detailsWeather.innerHTML = 'the sky will be sunny.';
         else if (temps === "Snow") detailsWeather.innerHTML = 'some snowfall are expected';
         else if (temps === "Drizzle") detailsWeather.innerHTML = 'some drizzle is expected.';
         else if (temps === "mist") detailsWeather.innerHTML = 'there will be fog';
