@@ -1,5 +1,5 @@
 
-let m = 29;    /* minutes*/
+let m = 24;    /* minutes*/
 let s = 59;    /* secondes*/
 
 let pauses = false;  /* pause selector */
