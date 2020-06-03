@@ -90,7 +90,8 @@ footer
 body
 {
     background-size: 75%;
-    background-position-y: 105%;
+    background-position-y: 100%;
+    background-position-x: -10%;
 }
 
 section
