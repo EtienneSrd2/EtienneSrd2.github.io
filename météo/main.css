@@ -173,6 +173,11 @@ footer a:hover
     {
        padding-top: 20%;
     }
+
+    header h1 
+    {
+        margin-top: 2%;
+    }
 }
 
 @media screen and (max-width: 380px){
@@ -217,4 +222,5 @@ footer a:hover
     {
         padding-top: 25%;
     }
+
 }
