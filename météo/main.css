@@ -236,4 +236,9 @@ footer a:hover
         padding-top: 25%;
     }
 
+    .clearBack
+    {
+        background-position-x: 33%;
+    }
+
 }
