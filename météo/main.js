@@ -41,7 +41,7 @@ document.querySelector('form').addEventListener('submit', async function (e) {
 
         if (temps === "Clouds") detailsWeather.innerHTML = 'le temps sera nuageux.';
         else if (temps === "Rain") detailsWeather.innerHTML = 'le temps sera pluvieux.';
-        else if (temps === "Clear") detailsWeather.innerHTML = 'le ciel sera ensoleillé aujourd\'hui.';
+        else if (temps === "Clear") detailsWeather.innerHTML = 'le ciel sera ensoleillé.';
         else if (temps === "Snow") detailsWeather.innerHTML = 'des chutes de neiges sont annoncées.';
         else if (temps === "Drizzle") detailsWeather.innerHTML = 'de la bruine est attendue.';
         else if (temps === "mist") detailsWeather.innerHTML = 'du brouillard est attendu';
