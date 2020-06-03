@@ -63,4 +63,4 @@ function getMeteo(ville) {
 }
 });
 
-window.scrollTo(0, 1);
+window.scrollTo(0, 3);
