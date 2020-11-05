@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/flappy.css">
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@700&display=swap" rel="stylesheet">
+    <title>Flappy Bird</title>
+</head>
+<body  class="slidingBackground" onclick="jump()">
+    <div>
+        <section id="before">
+            <h1>Flappy bird !</h1>
+            <form>
+                <label for="pseudo">Entrez votre pseudo:</label><br>
+                    <input for="pseudo" id="pseudo" type="text" required><br>
+                <input type="submit" value="Jouer !" onclick="startGame()" id="submit">
+
+            </form>
+            </section>
+
+            <section id="game" style="display: none;">
+                <div id="cursor">
+                    <img src="/img/cursor.png" alt="curseur" id="imgCursor">
+                </div>
+                <p id="lose " style="display: none;">Vous avez perdu !</p>
+            </section>
+        </div>
+    <script src="../js/flappy.js"></script>
+</body>
+</html>

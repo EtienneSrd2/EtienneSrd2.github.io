@@ -1,0 +1,59 @@
+@keyframes defile {
+    0% { background-position-x:   100vw; }
+  100% { background-position-x: -10vw; }
+}
+
+body, .slidingBackground{ margin: 0; padding: 0;  }
+.slidingBackground {
+    background: url(../img/background.png);
+    background-size: cover;
+    background-position-y: -30px;
+    animation: defile 30s linear infinite;
+    height: 100%;
+    font-family: 'Turret Road', cursive;
+}	
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+form{
+    margin:15% 40% 0% 38%;
+    border: 2px black solid;
+    padding: 3%;
+    border-radius: 5px;
+    background: linear-gradient(#57554c, #d8b400);
+}
+
+input 
+{
+    margin-top: 10%;
+    border-radius: 5px;
+    border: 0.3px black solid;   
+    background-color: #cccccc;
+}
+
+label {
+    font-size: 15px;
+}
+
+#imgCursor
+{
+    width: 5%;
+    height: 5%;
+    display: block;
+    margin:30% 0% 0% 30%;
+    
+   
+}
+ 
+#submit
+{
+    margin-left: 30%;
+    background-color: #cccccc;
+}
+
+#submit:hover {
+    background-color: #57554c;
+}
